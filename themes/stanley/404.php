@@ -9,4 +9,4 @@
 	</div><!-- /row -->
 </div><!-- /container -->
 
-<?php theme_include('partials/footer'); ?>
+<?php theme_include('partials/footer'); ?>ff
