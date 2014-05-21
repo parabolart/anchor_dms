@@ -7,11 +7,23 @@
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'DecimaMono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DecimaMono'), url(http://www.deathmountainsound.com/themes/stanley/assets/fonts/DecimaMono.otf) format('otf');
+}
+@font-face {
+  font-family: 'DecimaMono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('DecimaMono-Bold'), url(http://www.deathmountainsound.com/themes/stanley/assets/fonts/DecimaMono-Bold.otf) format('otf');
+}
+
 
 body {
   	background-color: #ffffff;
-  	font-family: Arial, sans-serif;
+  	font-family: 'DecimaMono', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #555;
@@ -22,7 +34,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: Arial, sans-serif;
+	font-family: 'DecimaMono', sans-serif;
     font-weight: 700;
     color: #333;
 }

@@ -8,7 +8,6 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">                
-                    <p><img src="<?php echo theme_url('assets/img/user.png'); ?>" width="50px" height="50px"> <ba><?php echo article_author(); ?></ba></p>
                     <p><bd><?php echo article_date(); ?></bd></p>
                     <h4><?php echo article_title(); ?></h4>
                     <p><?php echo article_description(); ?></p>

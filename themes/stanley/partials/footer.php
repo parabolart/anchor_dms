@@ -3,13 +3,13 @@
 	<div id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
-					<h4>My Bunker</h4>
+				<div class="col-md-4">
+					<h4>a</h4>
 					<p><?php echo site_meta('address'); ?></p>
-				</div><!-- /col-lg-4 -->
+				</div><!-- /col-md-4 -->
 				
-				<div class="col-lg-4">
-					<h4>My Links</h4>
+				<div class="col-md-4">
+					<h4>b</h4>
 					<p>
                     <?php if(site_meta('acc_dribbble') !=''): ?>   
 						<a href="<?php echo dribbble_url(); ?>">Dribbble</a><br/>
@@ -21,12 +21,12 @@
 						<a href="<?php echo facebook_url(); ?>">Facebook</a>
                     <?php endif; ?>
 					</p>
-				</div><!-- /col-lg-4 -->
+				</div><!-- /col-md-4 -->
 				
-				<div class="col-lg-4">
-					<h4>About <?php echo site_name(); ?></h4>
+				<div class="col-md-4">
+					<h4>c</h4>
 					<p><?php echo site_meta('about'); ?></p>
-				</div><!-- /col-lg-4 -->
+				</div><!-- /col-md-4 -->
 			
 			</div><!-- /row -->
 		
