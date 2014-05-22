@@ -30,11 +30,11 @@
 		<?php endif; ?>
 	</head>
 	<body class="<?php echo body_class(); ?>">
-		<div class="clearfix">
+		<div class="clearfix whitebox">
 			<aside>
 				<header>
 					<a id="logo" href="<?php echo base_url(); ?>" title="<?php echo site_name(); ?>">
-						<img src="<?php echo theme_url('/img/logo.svg'); ?>" width="50px"/>
+						<img src="<?php echo theme_url('/img/logo.png'); ?>" width="50px"/>
 					</a>
 				</header>
 

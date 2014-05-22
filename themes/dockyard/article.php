@@ -1,7 +1,7 @@
 <?php theme_include('header'); ?>
 
 <section class="sheet answer" id="article-<?php echo article_id(); ?>">
-	<header class="ribbon"><?php echo article_title(); ?></header>
+	<header class="ribbon"><h5>DEATH MOUNTAIN SOUND</h5><h4><?php echo article_title(); ?><h4></header>
 	
 	<article>
 		<?php echo article_markdown(); ?>

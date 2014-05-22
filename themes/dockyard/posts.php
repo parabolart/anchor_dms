@@ -1,7 +1,7 @@
 <?php theme_include('header'); ?>
 
 <section class="sheet answer">
-	<header class="ribbon"><?php echo page_title(); ?></header>
+	<header class="ribbon"><h5>DEATH MOUNTAIN SOUND</h5><h4><?php echo page_title(); ?><h4></header>
 	<?php if(has_posts()): ?>
 		<!-- We have posts, it's safe to loop. -->
 		<?php while(posts()): ?>
